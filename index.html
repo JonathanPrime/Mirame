@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse col-4" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a id="link-1" class="nav-link navbar-link" href="#home">Inicio</a>
+                        <a id="link-1" class="nav-link navbar-link" href="#js-header">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a id="link-2" class="nav-link navbar-link" href="#about">Nosotros</a>
@@ -47,8 +47,8 @@
                                 class="ri-instagram-line"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="social-icon" href="https://www.facebook.com/miramecyp"
-                            target="a_blank"><i class="ri-facebook-line"></i></a>
+                        <a class="social-icon" href="https://www.facebook.com/miramecyp" target="a_blank"><i
+                                class="ri-facebook-line"></i></a>
                     </li>
                 </ul>
             </div>
@@ -57,16 +57,83 @@
 
     <!--slider section start -->
     <!-- home section starts  -->
-    <section class="section home home-1" id="home">
-        <div class="home-text">
-            <img style="width: 100%" src="./assets/images/svg/text-v1.svg" alt="">
+    <section class="slideshow" id="js-header">
+        <div class="slideshow__slide js-slider-home-slide is-current" data-slide="1">
+            <div class="slideshow__slide-background-parallax background-absolute js-parallax" data-speed="-1"
+                data-position="top" data-target="#js-header">
+                <div class="slideshow__slide-background-load-wrap background-absolute">
+                    <div class="slideshow__slide-background-load background-absolute">
+                        <div class="slideshow__slide-background-wrap background-absolute">
+                            <div class="slideshow__slide-background background-absolute">
+                                <div class="slideshow__slide-image-wrap background-absolute">
+                                    <div class="slideshow__slide-image background-absolute img-1-slideshow">
+                                        <div class="home" id="home">
+                                            <div class="content">
+                                                <img style="width: 90%" src="./assets/images/slides/text-banner.svg" alt="">
+                                            </div>
+                                            <div class="image">
+                                                <img src="./assets/images/svg/logo-dark.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slideshow__slide-caption">
+                <div class="slideshow__slide-caption-text">
+                    <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+                        <!-- <div class="col-12 mx-auto" data-aos="zoom-in-up" data-aos-delay="500">
+                            <img class="text-header" src="img/text-header-1.svg" alt="">
+                        </div> -->
+                        <!-- <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="#">
+                            <span class="slideshow__slide-caption-subtitle-label"><b>DigitalFuture.</b>agency</p></span>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Home Image -->
-        <div class="home-img">
-            <img style="width: 100%" src="./assets/images/svg/text-img.svg" alt="">
+
+        <div class="slideshow__slide js-slider-home-slide is-next" data-slide="2">
+            <div class="slideshow__slide-background-parallax background-absolute js-parallax" data-speed="-1"
+                data-position="top" data-target="#js-header">
+                <div class="slideshow__slide-background-load-wrap background-absolute">
+                    <div class="slideshow__slide-background-load background-absolute">
+                        <div class="slideshow__slide-background-wrap background-absolute">
+                            <div class="slideshow__slide-background background-absolute">
+                                <div class="slideshow__slide-image-wrap background-absolute">
+                                    <div class="slideshow__slide-image background-absolute img-2-slideshow">
+                                        <div class="home" id="home-1">
+                                            <div class="content">
+                                                <img style="width: 90%" src="./assets/images/slides/text-banner-2.svg" alt="" >
+                                            </div>
+                                            <div class="image">
+                                                <img src="./assets/images/slides/img-banner.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slideshow__slide-caption">
+                <div class="slideshow__slide-caption-text">
+                    <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+                        <!-- <div class="col-12 mx-auto" data-aos="zoom-in-up" data-aos-delay="500">
+                            <img class="text-header" src="img/text-header-1.svg" alt="">
+                        </div> -->
+                        <!-- <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="#">
+                            <span class="slideshow__slide-caption-subtitle-label"><b>DigitalFuture.</b>agency</p></span>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- home section ends -->
 
     <!-- Services -->
     <section id="about" class="about section-padding">
@@ -76,12 +143,14 @@
                     <div class="setion-title text-center" data-aos="fade-up" data-aos-delay="100">
                         <h1 class="text-script">Acerca de</h1>
                         <h1 class="text-serif-1">NOSOTROS</h1>
-                        <p><b>Mírame Cejas & Pestañas</b> es un equipo de mujeres trabajadoras enfocadas en el cuidado y belleza
+                        <p><b>Mírame Cejas & Pestañas</b> es un equipo de mujeres trabajadoras enfocadas en el cuidado y
+                            belleza
                             de la mujer, ofrecemos servicios de cosmetología.</p>
                         <div class="line"></div>
                     </div>
                 </div>
             </div>
+
             <div class="row gy-4 text-center cards">
                 <div class="col-lg-3 col-md-5 col-sm-5 card-about" data-aos="fade-up" data-aos-delay="200">
                     <div class="service py-5 px-2">
@@ -89,11 +158,8 @@
                             <span class="iconify" data-icon="ic:baseline-auto-graph"></span>
                         </div>
                         <h5 class="mt-4 title-ser">CALIDAD</h5>
-                        <p>Contamos con personal capacitado para cuidar tu imagen de acuerdo a la necesidad que tu requieres.</p>
-                        <!-- <a href="#" class="custom-link">
-                            <span>Read More</span>
-                            <i class="ri-arrow-right-line"></i>
-                        </a> -->
+                        <p>Contamos con personal capacitado para cuidar tu imagen de acuerdo a la necesidad que tu
+                            requieres.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-5 col-sm-5 card-about" data-aos="fade-up" data-aos-delay="100">
@@ -102,11 +168,8 @@
                             <span class="iconify" data-icon="ic:baseline-add-reaction"></span>
                         </div>
                         <h5 class="mt-4 title-ser">RESPONSABILIDAD</h5>
-                        <p>Ofrecemos servicios especializados profesionales para la mujer en cuanto a manicure, pedicure, maquillaje, depilación, etc...</p>
-                        <!-- <a href="#" class="custom-link">
-                            <span>Read More</span>
-                            <i class="ri-arrow-right-line"></i>
-                        </a> -->
+                        <p>Ofrecemos servicios especializados profesionales para la mujer en cuanto a maquillaje,
+                            depilación, cejas, pestañas y mucho más...</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-5 col-sm-5 card-about" data-aos="fade-up" data-aos-delay="300">
@@ -116,10 +179,6 @@
                         </div>
                         <h5 class="mt-4 title-ser">EFECTIVIDAD</h5>
                         <p>Exaltar la belleza e imagen de nuestras clientes es la efectividad de nuestro trabajo.</p>
-                        <!-- <a href="#" class="custom-link">
-                            <span>Read More</span>
-                            <i class="ri-arrow-right-line"></i>
-                        </a> -->
                     </div>
                 </div>
             </div>
@@ -149,7 +208,8 @@
                                     </div>
                                     <div class="services-content mt-30">
                                         <h5 class="title mb-10">PESTAÑAS PELO A PELO</h5>
-                                        <p>Consigues alargar tus pestañas de una manera muy natural y con una duración que es semipermanente.</p>
+                                        <p>Consigues alargar tus pestañas de una manera muy natural y con una duración
+                                            que es semipermanente.</p>
                                     </div>
                                 </div> <!-- single services -->
                             </div>
@@ -160,7 +220,8 @@
                                     </div>
                                     <div class="services-content mt-20">
                                         <h5 class="title mb-10">VOLUMEN RUSO</h5>
-                                        <p>Logra una mayor densidad, grosor y curvatura el resultado será mucho más natural y parecerá que son nuestras propias pestañas.
+                                        <p>Logra una mayor densidad, grosor y curvatura el resultado será mucho más
+                                            natural y parecerá que son nuestras propias pestañas.
                                         </p>
                                     </div>
                                 </div> <!-- single services -->
@@ -172,7 +233,8 @@
                                     </div>
                                     <div class="services-content mt-30">
                                         <h5 class="title mb-10">LIFTING DE PESTAÑAS</h5>
-                                        <p>Un proceso natural sin preocupaciones, consigue pestañas largas, definidas y bonitas.</p>
+                                        <p>Un proceso natural sin preocupaciones, consigue pestañas largas, definidas y
+                                            bonitas.</p>
                                     </div>
                                 </div> <!-- single services -->
                             </div>
@@ -183,7 +245,8 @@
                                     </div>
                                     <div class="services-content mt-30">
                                         <h5 class="title mb-10">DEPILACIÓN CON HILO</h5>
-                                        <p>Elimina milimétricamente con nuestro método natural para arrancar de raíz el vello.</p>
+                                        <p>Elimina milimétricamente con nuestro método natural para arrancar de raíz el
+                                            vello.</p>
                                     </div>
                                 </div> <!-- single services -->
                             </div>
@@ -194,7 +257,8 @@
                                     </div>
                                     <div class="services-content mt-20">
                                         <h5 class="title mb-10">CEJAS MICROBLADING</h5>
-                                        <p>La técnica de maquillaje permanente para tus cejas, dale un estilo diferente a tus cejas, más definidas y con más volumen</p>
+                                        <p>La técnica de maquillaje permanente para tus cejas, dale un estilo diferente
+                                            a tus cejas, más definidas y con más volumen</p>
                                     </div>
                                 </div> <!-- single services -->
                             </div>
@@ -205,7 +269,8 @@
                                     </div>
                                     <div class="services-content mt-20">
                                         <h5 class="title mb-10">BB LIPS</h5>
-                                        <p>Darles un aspecto sensual a tus labios a la vez que natural, sin que el labio parezca perfilado ni pintado de forma artificial.</p>
+                                        <p>Darles un aspecto sensual a tus labios a la vez que natural, sin que el labio
+                                            parezca perfilado ni pintado de forma artificial.</p>
                                     </div>
                                 </div> <!-- single services -->
                             </div>
@@ -329,7 +394,7 @@
                 <div class="container">
                     <div class="row gy-5">
                         <div class="col-md-4">
-                            <a class="navbar-brand" href="#home"><img class="logo-design" id="img-logo"
+                            <a class="navbar-brand" href="#home"><img class="logo-design logo-footer" id="img-logo"
                                     src="./assets/images/svg/logo-dark.svg"></a>
                             <p class="text-footer">El mejor spa de cosmetodologia y estética integral.</p>
                             <ul class="navbar-nav flex-row">
@@ -338,9 +403,8 @@
                                         target="a_blank"><i class="ri-instagram-line"></i></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="social-icon"
-                                        href="https://www.facebook.com/miramecyp"
-                                        target="a_blank"><i class="ri-facebook-line"></i></a>
+                                    <a class="social-icon" href="https://www.facebook.com/miramecyp" target="a_blank"><i
+                                            class="ri-facebook-line"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -362,8 +426,8 @@
                         <div class="col-md-3">
                             <h4>Contácto</h4>
                             <ul>
-                                <li><a class="nav-link" href="mailto:lamonaliza95@gmail.com"
-                                        target="a_blank"><span class="iconify" data-icon="charm:mail"></span>
+                                <li><a class="nav-link" href="mailto:lamonaliza95@gmail.com" target="a_blank"><span
+                                            class="iconify" data-icon="charm:mail"></span>
                                         lamonaliza95@gmail.com</a></li>
                                 <li><a class="nav-link" href="tel:+573214362240" target="a_blank"><span class="iconify"
                                             data-icon="ic:baseline-phone-in-talk"></span> +57 321 436 2240</a></li>
@@ -417,11 +481,12 @@
         <img src="./load.gif" alt="">
     </div>
 
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/jarallax.min.js"></script>
     <script src="./assets/js/owl-crousel/owl.carousel.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./assets/js/app.js"></script>
